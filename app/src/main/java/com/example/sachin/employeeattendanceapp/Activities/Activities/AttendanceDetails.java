@@ -195,7 +195,7 @@ public class AttendanceDetails extends AppCompatActivity {
 
                     for (int i=0; i<jsonAttendanceArray.size(); i++){
 
-                        JsonObject jsonAttendanceObj = jsonAttendanceArray.getAsJsonObject();
+                        JsonObject jsonAttendanceObj = jsonAttendanceArray.get(i).getAsJsonObject();
 
                         employeesAttendanceDetails = new EmployeesAttendanceDetails("", "", "");
                         if (jsonAttendanceObj.has("emp_id")){
