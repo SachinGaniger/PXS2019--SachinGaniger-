@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EmployeeAttendanceApp</string>
+    <string name="title">Title</string>
+    <string name="selectEmployees">Select Employees</string>
+    <string name="month">Select Month</string>
+    <string name="year">Select Year</string>
+    <string name="viewReport">View Report</string>
+
+    <string name="reportText">Employee Report</string>
+    <string name="dateOfTheMonth">Date of the Month</string>
+    <string name="NoOfHours">No. of Hours Logged</string>
+    <string name="day">Day</string>
+    <string name="hours">Hours</string>
+    <string name="hoursLogged">Hours Logged</string>
+    <string name="daysPresent">Days Present</string>
+    <string name="daysAbsent">Days Absent</string>
+</resources>

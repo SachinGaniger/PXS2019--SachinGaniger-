@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthText"
+        android:background="@color/lightGrey"
+        android:textColor="@color/textBlack"
+        android:text="@string/month"
+        android:padding="8dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hoursLoggedText"
+        android:background="@color/lightGrey"
+        android:textColor="@color/textBlack"
+        android:text="@string/month"
+        android:padding="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintStart_toEndOf="@id/monthText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        />
+
+</android.support.constraint.ConstraintLayout>
